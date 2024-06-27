@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+.static-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: aliceblue;
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
