@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import "./App.css";
+import "../App.css";
 
 export default function InputBioGlyphWidget({ src, width = '100%', height = '700px' }){
     const [markup, setMarkup] = useState('');
+
     function handleMarkupChange(e){
         setMarkup(e.target.value);
     }
