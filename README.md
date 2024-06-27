@@ -1,4 +1,8 @@
 # Luma - BioGlyph Demo App
+### get started 
+ - `npm i`
+ - `npm run dev`
+
 
 
 ### React + Vite
