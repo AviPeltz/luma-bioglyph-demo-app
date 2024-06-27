@@ -12,3 +12,31 @@
     padding: 1em;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.input{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    width: 100%;
+
+}
+.button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 4px;
+    background-color: rgb(207, 200, 213);
+    margin-left: .5em;
+    margin-bottom: .5em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
