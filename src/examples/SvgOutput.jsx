@@ -23,20 +23,20 @@ export default function SvgOutput({ src, width = '100%', height = '700px' }){
     }
     return(
         <>
-        <div>
-            <iframe 
-                src={src} 
-                width={width} 
-                height={height} 
-                style={{ border: 'none' }} 
-                ref={iframeSVGRef}
-                onLoad={handleIframe}
-            />
-        </div>
-        <h4>SVG Output:</h4>
-        <p>
-            {svg}
-        </p>
+            <div>
+                <iframe 
+                    src={src} 
+                    width={width} 
+                    height={height} 
+                    style={{ border: 'none' }} 
+                    ref={iframeSVGRef}
+                    onLoad={handleIframe}
+                />
+            </div>
+            <h4>SVG Output:</h4>
+            <p>
+                {svg}
+            </p>
         </>
     );
 }
